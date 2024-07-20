@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 75;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,13 +15,16 @@
 		AD5030792C46F0F800823C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5030782C46F0F800823C18 /* Assets.xcassets */; };
 		AD50307C2C46F0F800823C18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD50307B2C46F0F800823C18 /* Preview Assets.xcassets */; };
 		AD5030862C46F0F800823C18 /* FitTrack_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030852C46F0F800823C18 /* FitTrack_Watch_AppTests.swift */; };
-		AD5030902C46F0F800823C18 /* FitTrack_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50308F2C46F0F800823C18 /* FitTrack_Watch_AppUITests.swift */; };
-		AD5030922C46F0F800823C18 /* FitTrack_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030912C46F0F800823C18 /* FitTrack_Watch_AppUITestsLaunchTests.swift */; };
 		AD5030B12C46FAC200823C18 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B02C46FABE00823C18 /* Models.swift */; };
 		AD5030B32C46FADA00823C18 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B22C46FACF00823C18 /* HealthKitManager.swift */; };
 		AD5030B52C46FAED00823C18 /* CoreMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B42C46FAE600823C18 /* CoreMotionManager.swift */; };
 		AD5030B72C46FAFE00823C18 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B62C46FAFA00823C18 /* WorkoutView.swift */; };
 		ADD260B62C4AEB510072F40D /* WorkoutSummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD260B52C4AEB4B0072F40D /* WorkoutSummaryModel.swift */; };
+		ADD260BC2C4B577A0072F40D /* FitTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50305D2C46F0F700823C18 /* FitTrackTests.swift */; };
+		ADD260C02C4B595A0072F40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5030782C46F0F800823C18 /* Assets.xcassets */; };
+		ADD260C32C4B59A80072F40D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD260C22C4B59A80072F40D /* XCTest.framework */; };
+		ADD260C62C4B5A6D0072F40D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD260C52C4B5A580072F40D /* Utilities.swift */; };
+		ADD260C72C4B5A6D0072F40D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD260C52C4B5A580072F40D /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +49,6 @@
 		AD027C622C49F9E8002FFE54 /* WorkoutHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistoryView.swift; sourceTree = "<group>"; };
 		AD027C642C49FA9C002FFE54 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		AD50305D2C46F0F700823C18 /* FitTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrackTests.swift; sourceTree = "<group>"; };
-		AD5030672C46F0F700823C18 /* FitTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrackUITests.swift; sourceTree = "<group>"; };
-		AD5030692C46F0F700823C18 /* FitTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD50306F2C46F0F700823C18 /* FitTrack Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitTrack Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5030742C46F0F700823C18 /* FitTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrackApp.swift; sourceTree = "<group>"; };
 		AD5030762C46F0F700823C18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,8 +57,6 @@
 		AD5030812C46F0F800823C18 /* FitTrack Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitTrack Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5030852C46F0F800823C18 /* FitTrack_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrack_Watch_AppTests.swift; sourceTree = "<group>"; };
 		AD50308B2C46F0F800823C18 /* FitTrack Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitTrack Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD50308F2C46F0F800823C18 /* FitTrack_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrack_Watch_AppUITests.swift; sourceTree = "<group>"; };
-		AD5030912C46F0F800823C18 /* FitTrack_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrack_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD5030B02C46FABE00823C18 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		AD5030B22C46FACF00823C18 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 		AD5030B42C46FAE600823C18 /* CoreMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionManager.swift; sourceTree = "<group>"; };
@@ -65,6 +64,8 @@
 		AD5030BB2C46FD0A00823C18 /* FitTrack Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FitTrack Watch App.entitlements"; sourceTree = "<group>"; };
 		AD9F44AB2C47486100866D5F /* FitTrack-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FitTrack-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		ADD260B52C4AEB4B0072F40D /* WorkoutSummaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryModel.swift; sourceTree = "<group>"; };
+		ADD260C22C4B59A80072F40D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/WatchOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADD260C52C4B5A580072F40D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD260C32C4B59A80072F40D /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +97,12 @@
 		AD5030402C46F0F600823C18 = {
 			isa = PBXGroup;
 			children = (
+				ADD260C42C4B5A500072F40D /* Utilities */,
 				AD50305C2C46F0F700823C18 /* FitTrackTests */,
-				AD5030662C46F0F700823C18 /* FitTrackUITests */,
 				AD5030732C46F0F700823C18 /* FitTrack Watch App */,
 				AD5030842C46F0F800823C18 /* FitTrack Watch AppTests */,
-				AD50308E2C46F0F800823C18 /* FitTrack Watch AppUITests */,
 				AD50304A2C46F0F600823C18 /* Products */,
+				ADD260C12C4B59A80072F40D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,15 +122,6 @@
 				AD50305D2C46F0F700823C18 /* FitTrackTests.swift */,
 			);
 			path = FitTrackTests;
-			sourceTree = "<group>";
-		};
-		AD5030662C46F0F700823C18 /* FitTrackUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AD5030672C46F0F700823C18 /* FitTrackUITests.swift */,
-				AD5030692C46F0F700823C18 /* FitTrackUITestsLaunchTests.swift */,
-			);
-			path = FitTrackUITests;
 			sourceTree = "<group>";
 		};
 		AD5030732C46F0F700823C18 /* FitTrack Watch App */ = {
@@ -168,13 +161,20 @@
 			path = "FitTrack Watch AppTests";
 			sourceTree = "<group>";
 		};
-		AD50308E2C46F0F800823C18 /* FitTrack Watch AppUITests */ = {
+		ADD260C12C4B59A80072F40D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD50308F2C46F0F800823C18 /* FitTrack_Watch_AppUITests.swift */,
-				AD5030912C46F0F800823C18 /* FitTrack_Watch_AppUITestsLaunchTests.swift */,
+				ADD260C22C4B59A80072F40D /* XCTest.framework */,
 			);
-			path = "FitTrack Watch AppUITests";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADD260C42C4B5A500072F40D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				ADD260C52C4B5A580072F40D /* Utilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +257,6 @@
 				};
 			};
 			buildConfigurationList = AD5030442C46F0F600823C18 /* Build configuration list for PBXProject "FitTrack" */;
-			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -265,6 +264,7 @@
 				Base,
 			);
 			mainGroup = AD5030402C46F0F600823C18;
+			preferredProjectObjectVersion = 75;
 			productRefGroup = AD50304A2C46F0F600823C18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD260C02C4B595A0072F40D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +310,7 @@
 			files = (
 				AD5030B12C46FAC200823C18 /* Models.swift in Sources */,
 				AD027C612C49F50D002FFE54 /* SensorLogManager.swift in Sources */,
+				ADD260C62C4B5A6D0072F40D /* Utilities.swift in Sources */,
 				AD5030B52C46FAED00823C18 /* CoreMotionManager.swift in Sources */,
 				AD5030772C46F0F700823C18 /* ContentView.swift in Sources */,
 				AD5030B32C46FADA00823C18 /* HealthKitManager.swift in Sources */,
@@ -324,7 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD260C72C4B5A6D0072F40D /* Utilities.swift in Sources */,
 				AD5030862C46F0F800823C18 /* FitTrack_Watch_AppTests.swift in Sources */,
+				ADD260BC2C4B577A0072F40D /* FitTrackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD5030922C46F0F800823C18 /* FitTrack_Watch_AppUITestsLaunchTests.swift in Sources */,
-				AD5030902C46F0F800823C18 /* FitTrack_Watch_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  SensorLogManager.swift
 //  FitTrack
 //
-//  Created by Anthony Castillo on 7/18/24.
+//  Created by Anthony Castillo 
 //
 
 import Foundation
